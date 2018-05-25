@@ -16,7 +16,7 @@ defmodule SequenceSup.Mixfile do
   def application do
     # Specify extra applications you'll use from Erlang/Elixir
     [extra_applications: [:logger],
-     mod: {SequenceSup.Application, []}]
+     mod: {SequenceSup.Application, [456]}]
   end
 
   # Dependencies can be Hex packages:
